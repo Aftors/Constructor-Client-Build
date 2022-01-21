@@ -1,0 +1,61 @@
+.authEmail {
+  display: flex;
+  border: 1px solid #e9e9e9;
+  border-radius: 15px;
+  padding: 9px 5px 9px 5px;
+  color: rgb(126, 126, 126);
+  text-align: center;
+  margin-top: 10px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 38px;
+  transition: all 0.5s;
+
+  h2 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  img {
+    height: 15px;
+  }
+}
+.authEmail.active {
+  height: 190px;
+  transition: all 0.5s;
+}
+
+.authEmailHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 40px 0px 9px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.authEmailHeader.active {
+  padding-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.authInputConteiner {
+  width: 100%;
+
+  p {
+    text-align: left;
+    margin-left: 10%;
+  }
+}
+
+@keyframes open {
+  50% {
+    height: auto;
+  }
+  100% {
+    height: 200px;
+  }
+}

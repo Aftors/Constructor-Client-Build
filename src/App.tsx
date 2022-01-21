@@ -1,10 +1,11 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
+import AppRouter from './Router/AppRouter'
 
 function App() {
   return (
     <div className="App">
-      <p>привет</p>
+      <AppRouter />
     </div>
   )
 }

@@ -1,0 +1,29 @@
+@import '../../../bank';
+
+.buttonDefault {
+  display: inline-block;
+  margin: 10px 2px 0px 0px;
+  padding: 10px 25px;
+  font-size: 13px;
+  color: $main-black;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+  min-width: 175px;
+}
+
+.buttonBlue {
+  background-color: blue;
+}
+
+.buttonBlueMax {
+  background-color: $main-blue;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.buttonYellow {
+  background-color: $main-yellow;
+}

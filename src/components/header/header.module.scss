@@ -1,0 +1,19 @@
+@import '../../bank';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  height: 30px;
+  margin: 10px;
+}
+
+.accountCircel {
+  display: block;
+  border-radius: 50%;
+  margin: 10px;
+  height: 40px;
+  cursor: pointer;
+}
